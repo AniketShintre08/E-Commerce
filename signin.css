@@ -1,0 +1,163 @@
+/* body{
+    padding: 0px;
+    margin: 0px; 
+    background-image:url(./ak\ creation.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    overflow: hidden;
+    background: black;
+}
+.ring{
+    width: 550px;
+    height: 600px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.ring i{
+    position: absolute;
+    inset: 0;
+    border: 2px solid aqua;
+    transform: 0.5s;
+}
+.ring i:nth-child(1){
+    border-radius: 38% 62% 63% 37% / 41% 44% 56% 59%;
+    animation: animate 6s linear infinite;
+}
+.ring i:nth-child(2){
+    border-radius: 41% 44% 56% 59% / 38% 62% 63% 37%;
+    animation: animate 4s linear infinite;
+}
+.ring i:nth-child(3){
+    border-radius: 41% 44% 56% 59%  / 38% 62% 63% 37%;
+    animation: animate2 10s linear infinite;
+}
+.ring:hover i{
+    border: 5px solid var(---clr);
+    filter: drop-shadow(0 0 20px var(--clr));
+}
+@keyframes animate{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+@keyframes animate2{
+    0%{
+        transform: rotate(360deg);
+    }
+    100%{
+        transform: rotate(0deg);
+    }
+}
+span{
+    color: red;
+}
+.signin{
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+.signin h2{
+    font-size: 2rem;
+    color: white;
+}
+input{
+    height: 2rem;
+    box-shadow: 0 0 10px whitesmoke;
+    width: 15rem;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+}
+.sigin .input input{
+    position: relative;
+    padding: 12px 20px;
+    background: transparent;
+    border: 2px solid black;
+    border-radius: 40px;
+    font-size: 1.2rem;
+    color: aqua;
+    box-shadow: none;
+    outline: none;
+} 
+.sigin .input input::placeholder{
+    color: black;
+}
+.button{
+    width: fit-content;
+    margin: auto;
+}
+button{
+    width: 7rem;
+    height: 30px;
+    background-color: whitesmoke;
+    color: black;
+    margin: auto;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+}
+button:active{
+    color: whitesmoke;
+    background-color: black;
+} */
+
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-image: linear-gradient(red, yellow);
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+h2{
+    color: antiquewhite;
+    text-align: center;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+}
+span{
+    color: whitesmoke;
+    font-size: 1rem;
+}
+form{
+    /* margin-top: 2rem; */
+    margin: auto;
+    padding: 10px;
+    height: fit-content;
+    box-shadow: 0 0 25px black;
+    width: 30%;
+    background-image: linear-gradient(red, black);
+    /* text-align: center; */
+    border-radius: 5px;
+}
+input,button{
+    height: 3.5rem;
+    border-radius: 5px;
+    width: 100%;
+    padding: 10px;
+    border: none;
+}
+button{
+    margin-top: 1.5rem;
+    background-color: rgb(237, 133, 154);
+    color: whitesmoke;
+    font-weight: bolder;
+    font-size: 1rem;
+}
+button:active{
+    background-color: whitesmoke;
+    color: black;
+}
